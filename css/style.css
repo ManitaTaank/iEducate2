@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Underdog&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50px;
+    /* margin: 5px; */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list {
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+   
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.rightnav {
+    width: 30%;
+    /* text-align: right; */
+    padding: 0 23px;
+    /* background-color: blueviolet; */
+    /* background:transparent;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: blur(4px); */
+}
+
+.nav-list li a:hover {
+    background-color: gray
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 9px;
+    border: 2px solid gray;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(../img/bgc.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.firstSection {
+    height: 80%;
+}
+
+
+box-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 100vh
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 75%;
+    color: white;
+    padding-right: 100px;
+}
+
+.secondhalf img {
+
+    width: 250px;
+    height: 250px;
+    border: 4px solid white;
+    border-radius: 500px;
+    display: block;
+    align-items: center;
+    margin: 45px auto;}
+
+.text-big {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-small {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.buttons {
+    text-align:-webkit-center;
+    margin-top: 20px;
+}
+
+.btn {
+    /* border: 2px soklid white; */
+    padding: 10px 20px;
+    /* background-color: rgb(255, 0, 136); */
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn-sm {
+    border: 2px solid white;
+   /* padding: 5px 10px;  */
+    vertical-align: middle;
+    /* background-color: rgb(255, 0, 136); */
+    color: white;
+    font-size: 15px;
+    /* align-items: center;
+    border-radius: 8px;
+    background: none; */
+    cursor: pointer;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid gray;
+}
+.section {
+
+    /* height: 400px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    padding: 10px;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.section-Left {
+    flex-direction: row-reverse;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.paras {
+    padding: 0px 40px;
+}
+
+.thumbnail img {
+    width: 200px;
+    height: 200px;
+    margin-top: 19px;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Contact {
+    background-color: #e7e5bf;
+    height: 833px;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+     font-family: "Ubuntu", sans-serif;
+}
+
+.form {
+    max-width: 62%;
+    margin: 42px auto;
+}
+.form-input {
+    width: 100%;
+    padding: 5px 13px;
+    margin: 14px 0;;
+    border-radius:6px;
+    border: 2px solid gray;
+    font-size: 19px;
+    border-radius: 6px;
+}
+.text-footer{
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display:flex;
+    justify-content: center;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor:pointer;
+    right: 5%;
+    top: 15px;
+    /* z-index: 2; */
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 5px;
+    margin: 3px 3px;
+    
+}

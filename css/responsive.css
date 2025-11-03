@@ -1,0 +1,58 @@
+
+@media only screen and (max-width: 1140px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar{
+        height: 500px;
+        width: 100%;
+        position: relative;
+ 
+        flex-direction: column; 
+        transition: all 0.7s ease-out;
+    }
+    .boxmain{
+        flex-direction: column-reverse;
+         max-width: 100%;
+    }
+    .rightnav {
+        text-align:center;
+        margin-top: 20px;
+    }
+    #search {
+        margin: 2px;
+        padding: 2px;
+        width: 100%;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity:0;
+    }
+    .section{
+        flex-direction: column-reverse;
+        
+    }
+    .text-small{
+        text-align:match-parent;
+
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px 0x;
+    }
+    .secondHalf img{
+        
+        margin-top: 45px;
+    }
+}
